@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+.logo {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.font {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.title {
+    font-family:'Montserrat';
+    font-weight: 200;
+    text-align: center;
+    color:lightcyan;
+}
+
+.socials {
+    font-family:'Montserrat';
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color:black;
+}
+
+.copyright {
+    font-family:'Montserrat';
+    font-size: 0.5rem;
+    font-weight: 400;   
+    color:lightcyan;
+    position: fixed; 
+    right: 3em; 
+    bottom: 2em; 
+  }
+
+
+
+/*Desktop*/
+@media only screen and (min-width: 961px) { 
+   
+
+
+
+.logo {
+    max-width: 10%;
+}
+
+.font {
+    max-width: 15%;
+}
+
+.title {
+    font-size: 2rem;
+    margin-top: 10%;
+}
+
+.socials {
+    margin-top: 12%;
+}
+
+.row {
+    display: flex;
+    padding-left: 44%;
+    padding-right: 44%;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0.5rem;
+  }
+
+} 
+
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) { 
+
+
+    
+    .logo {
+        max-width: 20%;
+    }
+    
+    .font {
+        max-width: 25%;
+    }
+    
+    .title {
+        font-size: 2rem;
+        margin-top: 30%;
+    }
+    
+    .socials {
+        margin-top: 40%;
+    }
+    
+    .row {
+        display: flex;
+        padding-left: 40%;
+        padding-right: 40%;
+      }
+      
+      .column {
+        flex: 50%;
+        padding: 0.5rem;
+      }
+  
+}
+
+
+/*Phone*/
+@media only screen and (max-width: 400px) {
+
+    
+    .logo {
+        max-width: 25%;
+    }
+    
+    .font {
+        max-width: 35%;
+    }
+    
+    .title {
+        font-size: 1.5rem;
+        margin-top: 30%;
+    }
+    
+    .socials {
+        margin-top: 40%;
+    }
+    
+    .row {
+        display: flex;
+        padding-left: 35%;
+        padding-right: 35%;
+      }
+      
+      .column {
+        flex: 50%;
+        padding: 0.5rem;
+      }
+    
+      }
